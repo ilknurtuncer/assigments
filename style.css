@@ -39,7 +39,7 @@ body {
 .p0{
   text-align: center;
   margin-top: 70px;
- font-size: x-large;
+ font-size: 40px;
  font-family: 'Diplomata', cursive;
 }
 .nav1{
@@ -50,11 +50,10 @@ body {
   color: rgb(209, 19, 19);
   padding: 1rem;
 }
-.h3 {
+.project-h3 {
   font-family: "Fredoka One", cursive;
-  color: #f4a460;
-  font-size: 32px;
-  padding-top: 20px;
+  color: #d38e51;
+
 }
 .project-h3{
   text-align: center;
@@ -156,10 +155,13 @@ img:hover {
 padding: 20px;
 }
 footer div a:hover {
-  color: crimson;
+  color: rgb(20, 220, 80);
 }
 .fa-brands:hover {
-  color: crimson;
+  color: rgb(194, 133, 19);
+}
+.contact-containar{
+  text-align: center;
 }
 footer a {
   text-decoration: none;
@@ -168,47 +170,64 @@ footer a {
   display: inline-block;
   margin-top: 40px;
 }
+.nav2 a {
+ color: #ebbb91;
+  padding: 1rem;
+}
 h2 {
-  font-size: 60px;
+  font-size: 70px;
+  font-family: "Fredoka One", cursive;
+  padding: 5pc;
+}
+.h4{
+  font-family: "Fredoka One", cursive;
+  padding: 30px;
 }
 #username,
 #email {
+  background-color: #0a4e1f;
   display: inline-block;
   width: 850px;
   height: 60px;
   font-size: 32px;
+  border-radius: 4px;
 }
 #message {
+  background-color: #0a4e1f;
+  width: 850px;
+  height: 200px;
   font-size: 32px;
-  border: 2px solid rgb(243, 243, 11);
+  border: 2px solid rgb(243, 142, 11);
+  border-radius: 4px;
 }
 
 input {
-  border: 2px solid rgb(243, 243, 11);
+  border: 2px solid rgb(243, 142, 11);
 }
 
 input:focus {
-  background-color: chartreuse;
-  color: red;
-  border: 4px dashed rgb(223, 36, 36);
+  background-color: rgb(238, 207, 167);
+  color: rgb(255, 102, 0);
+  border: 4px dashed rgb(223, 111, 36);
   outline: none;
 }
 #message:focus {
-  background-color: chartreuse;
-  color: red;
-  border: 4px dashed rgb(223, 36, 36);
+  background-color: rgb(238, 207, 167);
+  color: rgb(255, 102, 0);
+  border: 4px dashed rgb(223, 111, 36);
   outline: none;
 }
 #send {
-  background-color: fuchsia;
+  background-color: rgb(130, 185, 42);
   display: inline-block;
   width: 850px;
   height: 60px;
   font-size: 32px;
   border: none;
+  border-radius: 4px;
 }
 #send:hover {
-  color: chartreuse;
+  color: rgb(255, 17, 0);
   content: "💸🎈";
 }
 .send-containar{
@@ -221,7 +240,7 @@ h3 {
 #top {
   display: inline-block;
   text-align: center;
-  background-color: fuchsia;
+  background-color: rgb(130, 185, 42);
   padding: 10px;
   width: 150px;
   border-radius: 20px;
