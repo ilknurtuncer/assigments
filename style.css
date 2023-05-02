@@ -229,7 +229,7 @@ input:focus {
 }
 #send:hover {
   color: rgb(255, 17, 0);
-  content: "✍";
+ 
 }
 .send-containar{
   text-align: center;
@@ -242,6 +242,7 @@ h3 {
   display: inline-block;
   text-align: center;
   background-color: rgb(130, 185, 42);
+  color: rgb(12, 11, 11);
   padding: 10px;
   width: 150px;
   border-radius: 20px;
@@ -251,4 +252,8 @@ h3 {
 .top-home {
   text-align: right;
   margin-bottom: 50px;
+}
+#top:hover{
+  color: red;
+  
 }
