@@ -54,8 +54,12 @@ body {
   font-family: "Fredoka One", cursive;
   color: #f4a460;
   font-size: 32px;
-  font-weight: 700px;
   padding-top: 20px;
+}
+.project-h3{
+  text-align: center;
+  margin-top: 60px;
+  font-size: xx-large;
 }
 
 .box1 {
@@ -69,8 +73,8 @@ body {
     #21492d 46%,
     #396e58 100%
   );
-  height: 320px;
-  width: 1500px;
+  height: 300px;
+  width: 1000px;
   margin-top: 100px;
   margin-left: 50px;
   font-size: 20px;
@@ -93,7 +97,6 @@ body {
   border-radius: 8px;
   padding: 10px;
   background-color: rgb(22, 16, 16);
-  margin-top: 100px;
 float: right;
 margin-right: 40px;
 
@@ -114,11 +117,11 @@ color: white;
     #21492d 46%,
     #396e58 100%
   );
-  height: 320px;
-  width: 1500px;
-  margin-top: 110px;
+  height: 300px;
+  width: 1000px;
   margin-left: 50px;
   font-size: 20px;
+ 
 }
 .box2 img {
   height: 275px;
@@ -132,9 +135,8 @@ color: white;
     border-radius: 8px;
     padding: 10px;
     background-color: rgb(22, 16, 16);
-    margin-top: 50px;
   margin-right: 40px;
- 
+ float: right;
   }
   .box2 .button1 a{
       text-decoration: none;
@@ -152,4 +154,81 @@ img:hover {
 }
 .p1{
 padding: 20px;
+}
+footer div a:hover {
+  color: crimson;
+}
+.fa-brands:hover {
+  color: crimson;
+}
+footer a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 60px;
+}
+#username,
+#email {
+  display: inline-block;
+  width: 850px;
+  height: 60px;
+  font-size: 32px;
+}
+#message {
+  font-size: 32px;
+  border: 2px solid rgb(243, 243, 11);
+}
+
+input {
+  border: 2px solid rgb(243, 243, 11);
+}
+
+input:focus {
+  background-color: chartreuse;
+  color: red;
+  border: 4px dashed rgb(223, 36, 36);
+  outline: none;
+}
+#message:focus {
+  background-color: chartreuse;
+  color: red;
+  border: 4px dashed rgb(223, 36, 36);
+  outline: none;
+}
+#send {
+  background-color: fuchsia;
+  display: inline-block;
+  width: 850px;
+  height: 60px;
+  font-size: 32px;
+  border: none;
+}
+#send:hover {
+  color: chartreuse;
+  content: "💸🎈";
+}
+.send-containar{
+  text-align: center;
+}
+h3 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+#top {
+  display: inline-block;
+  text-align: center;
+  background-color: fuchsia;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+#top-home {
+  text-align: right;
+  margin-bottom: 50px;
 }
