@@ -225,10 +225,11 @@ input:focus {
   font-size: 32px;
   border: none;
   border-radius: 4px;
+
 }
 #send:hover {
   color: rgb(255, 17, 0);
-  content: "💸🎈";
+  content: "✍";
 }
 .send-containar{
   text-align: center;
@@ -247,7 +248,7 @@ h3 {
   font-size: 30px;
   text-decoration: none;
 }
-#top-home {
+.top-home {
   text-align: right;
   margin-bottom: 50px;
 }
